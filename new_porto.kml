@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Freguesias de Porto</name>
+    
+    <!-- Ejemplo de Freguesia 1 -->
+    <Placemark>
+      <name>Freguesia Ejemplo 1</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -8.6291,41.1579,0
+              -8.6280,41.1585,0
+              -8.6250,41.1580,0
+              -8.6291,41.1579,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <!-- Ejemplo de Freguesia 2 -->
+    <Placemark>
+      <name>Freguesia Ejemplo 2</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -8.6310,41.1590,0
+              -8.6300,41.1595,0
+              -8.6285,41.1590,0
+              -8.6310,41.1590,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    
+  </Document>
+</kml>
