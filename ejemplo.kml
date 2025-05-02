@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Freguesias de Porto</name>
+
+    <!-- Punto de ejemplo -->
+    <Placemark>
+      <name>Punto de ejemplo</name>
+      <Point>
+        <coordinates>-8.6291,41.1579,0</coordinates> <!-- Coordenadas de Porto -->
+      </Point>
+    </Placemark>
+
+    <!-- Polígono de ejemplo (Freguesia) -->
+    <Placemark>
+      <name>Polígono de ejemplo</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -8.6291,41.1579,0
+              -8.6280,41.1585,0
+              -8.6250,41.1580,0
+              -8.6291,41.1579,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
